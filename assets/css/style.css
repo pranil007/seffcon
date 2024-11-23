@@ -808,6 +808,7 @@ ul.fivetabnavs {
 .servicebox img {
 	width: 100%;
 	margin: 20px 0px;
+	border-radius: 10px;
 }
 
 .servicebox h2 {
@@ -833,7 +834,9 @@ ul.fivetabnavs {
 	font-family: "DM Sans", sans-serif;
 
 }
-
+.whyimg img {
+	border-radius: 10px;
+}
 section.testimonial {
 	background: #F4F4F6;
 	padding: 60px 0px;
@@ -1148,17 +1151,6 @@ h2.section-title__title.testi {
 		right: 120px;
 	}
 
-	.main-slider__nav .swiper-button-next,
-	.main-slider__nav .swiper-button-prev {
-		color: rgba(var(--insur-primary-rgb), .50);
-		border: 2px solid rgba(var(--insur-primary-rgb), .50);
-	}
-
-	.main-slider__nav .swiper-button-next:hover,
-	.main-slider__nav .swiper-button-prev:hover {
-		color: rgba(var(--insur-primary-rgb), 1);
-		border: 2px solid rgba(var(--insur-primary-rgb), 1);
-	}
 
 	.main-slider-two__video-link {
 		left: 310px;
